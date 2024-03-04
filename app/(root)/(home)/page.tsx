@@ -25,7 +25,7 @@ const page = () => {
           Passion.
         </h1>
         <Button asChild>
-          <Link href="/contact">Say hi 👋</Link>
+          <Link href="#testimonial">Say hi 👋</Link>
         </Button>
         <a
           href="#about"

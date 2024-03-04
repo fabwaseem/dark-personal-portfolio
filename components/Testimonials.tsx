@@ -6,45 +6,9 @@ import "swiper/css";
 import { Button } from "./Button";
 import { Navigation } from "swiper/modules";
 import { NavigationOptions } from "swiper/types";
+import { TestimonialsData } from "@/lib/data";
 
-const TestimonialsData = [
-  {
-    name: "John Doe",
-    title: "CEO, Company",
-    description:
-      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
-  },
-  {
-    name: "John Doe",
-    title: "CEO, Company",
-    description:
-      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
-  },
-  {
-    name: "John Doe",
-    title: "CEO, Company",
-    description:
-      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
-  },
-  {
-    name: "John Doe",
-    title: "CEO, Company",
-    description:
-      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
-  },
-  {
-    name: "John Doe",
-    title: "CEO, Company",
-    description:
-      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
-  },
-  {
-    name: "John Doe",
-    title: "CEO, Company",
-    description:
-      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
-  },
-];
+
 const Testimonials = () => {
   const prevRef = useRef<HTMLButtonElement>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
@@ -56,7 +20,6 @@ const Testimonials = () => {
         navigation
         modules={[Navigation]}
         onInit={(swiper: Type) => {
-          console.log(swiper.params.navigation)
           const navigationOptions = swiper.params
             .navigation as NavigationOptions;
           navigationOptions.prevEl = prevRef.current!;

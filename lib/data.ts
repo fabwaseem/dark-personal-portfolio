@@ -25,18 +25,18 @@ export const menuLinks = [
   },
   {
     name: "Portfolio",
-    hidden: "Something amazing",
-    link: "#",
+    hidden: "Amazing things",
+    link: "#projects",
   },
   {
-    name: "Blog",
-    hidden: "My thoughts",
-    link: "#",
+    name: "Services",
+    hidden: "What I can do",
+    link: "#services",
   },
   {
     name: "Contact",
     hidden: "Get in touch",
-    link: "#",
+    link: "#testimonial",
   },
 ];
 
@@ -170,5 +170,44 @@ export const SocialLinksData = [
     name: "Twitter",
     link: "https://www.twitter.com/fabwaseeem",
     icon: Twitter,
+  },
+];
+
+export const TestimonialsData = [
+  {
+    name: "John Doe",
+    title: "CEO, Company",
+    description:
+      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
+  },
+  {
+    name: "John Doe",
+    title: "CEO, Company",
+    description:
+      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
+  },
+  {
+    name: "John Doe",
+    title: "CEO, Company",
+    description:
+      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
+  },
+  {
+    name: "John Doe",
+    title: "CEO, Company",
+    description:
+      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
+  },
+  {
+    name: "John Doe",
+    title: "CEO, Company",
+    description:
+      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
+  },
+  {
+    name: "John Doe",
+    title: "CEO, Company",
+    description:
+      "Wasi is a talented developer who is always willing to go the extra mile to ensure that the project is completed to the highest standard. He is a great communicator and always keeps me updated on the progress of the project. I highly recommend him to anyone looking for a reliable and skilled developer.",
   },
 ];
